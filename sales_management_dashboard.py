@@ -393,5 +393,4 @@ def generate_and_forecast(gen_click, forecast_click, stored, detections,
 # -------------------------
 # Run server (Dash v3)
 # -------------------------
-if __name__ == "__main__":
-    app.run(debug=True, port=8050)
+server = app.server
